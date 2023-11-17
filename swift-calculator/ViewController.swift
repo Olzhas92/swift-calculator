@@ -30,6 +30,11 @@ class ViewController: UIViewController {
     
 
     @IBAction func minus(_ sender: Any) {
+        var num1 = Int(leftOperand.text!) ?? 0
+        var num2 = Int(rightOperand.text!) ?? 0
+        var res = num1 - num2
+        
+        result.text = String(res)
     }
     
     
@@ -42,6 +47,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func divideWithRemainder(_ sender: Any) {
+    }
+    
+    
+    @IBAction func turnIntoZero(_ sender: Any) {
+        leftOperand.text = ""
+        rightOperand.text = ""
+        result.text = ""
     }
 }
 

@@ -39,6 +39,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Turn into 0">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="turnIntoZero:" destination="BYZ-38-t0r" eventType="touchDown" id="OFx-kE-a20"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bKv-m8-b5C">
                                 <rect key="frame" x="137" y="409" width="119" height="44"/>
